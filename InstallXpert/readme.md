@@ -11,20 +11,23 @@ Developed a one-click troubleshooting program to streamline POS setup and issue 
 ### One-Click Access from the Taskbar
 
 - Icon that allows you to pop-up and minimize the program at any time.
-![1](images/1.png)
+![Alt text](https://github.com/krwhynot/Powershell/blob/main/InstallXpert/Images/1.png?raw=true)
+
 
 
 ### One-Click Access to Multiple Windows Programs & System Utilities
 
 - Quick access to applications such as SSMS, Printer Control, Device Manager, etc.
-![3](images/3.png)
+![Alt text](https://github.com/krwhynot/Powershell/blob/main/InstallXpert/Images/3.png?raw=true)
+
 
 
 ### One-Click Verifying Software Versions
 
 - Remotely check the software version of a station.
 - Display version status: green if it matches station 1, red if there's a mismatch.
-![4](images/4.png)
+![Alt text](https://github.com/krwhynot/Powershell/blob/main/InstallXpert/Images/4.png?raw=true)
+
 
 ### One-Click Common Functions
 
@@ -33,14 +36,18 @@ Developed a one-click troubleshooting program to streamline POS setup and issue 
     - Remotely restart or shut down stations.
     - Display stations' IP information.
     - Quick access to remotely VNC into another station.
-![5](images/5.png)
+![Alt text](https://github.com/krwhynot/Powershell/blob/main/InstallXpert/Images/5.png?raw=true)
+
 
 ### One-Click Access to Database Info
 
 - Access database information without needing to use HUB/RM or open SQL directly.
-![7](images/7.png)
-![8](images/8.png)
-![9](images/9.png)
+![Alt text](https://github.com/krwhynot/Powershell/blob/main/InstallXpert/Images/7.png?raw=true)
+
+![Alt text](https://github.com/krwhynot/Powershell/blob/main/InstallXpert/Images/8.png?raw=true)
+
+![Alt text](https://github.com/krwhynot/Powershell/blob/main/InstallXpert/Images/9.png?raw=true)
+
 ### Scripts
 
 - **Set Backup Files**: Validates and corrects backup paths.
@@ -51,15 +58,16 @@ Developed a one-click troubleshooting program to streamline POS setup and issue 
 - **Create HR Shortcuts**: Adds HungerRush Desktop Shortcut for all Windows users.
 - **Test ALL Local Printers**: Sends a test page to all printers on the station.
 - **Set Close Day Only on Station1**: Configures the database so only station 1 can Close Day.
-![10](images/10.png)
+![Alt text](https://github.com/krwhynot/Powershell/blob/main/InstallXpert/Images/10.png?raw=true)
+
 ### Local Services Management
 
 - Check the status, stop, start, and restart services.
-![11](images/11.png)
-![12](images/12.png)
+![Alt text](https://github.com/krwhynot/Powershell/blob/main/InstallXpert/Images/1png?raw=true)
 
 ### Notepad Record Keeping
 
 - Save text to Notepad for record-keeping.
-![12](images/12.png)
+![Alt text](https://github.com/krwhynot/Powershell/blob/main/InstallXpert/Images/12.png?raw=true)
+
 
