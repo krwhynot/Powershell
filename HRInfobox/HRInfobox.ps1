@@ -150,13 +150,14 @@ $oupdatev = (Get-Item "C:\Revention\RevUpdate\RUSvc.exe").LastWriteTime.ToString
 #=========================================================================== 
 # Links Object Values to XAML Form Fields 
 #=========================================================================== 
-$txtHostName.Text = Hostname 
- 
 #Formats and displays OS name 
 #$aOSName = $oCIMOS.name.Split("|") 
 #$txtOSName.Text = ($aOSName[0] + " " + "(" + $Win10Ver + ")")
- 
 
+
+#Display Hostname
+$txtHostName.Text = Hostname 
+ 
 #Displays IP Address 
 $txtWindowsIP.Text = $oCIMNIC 
 
