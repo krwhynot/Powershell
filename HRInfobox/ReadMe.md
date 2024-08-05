@@ -1,5 +1,5 @@
 
-# HungerRush Support Info Tool
+# Support Info Tool
 
 ## Description
 
