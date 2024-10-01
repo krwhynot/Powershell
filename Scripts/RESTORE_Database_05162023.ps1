@@ -1,4 +1,4 @@
-﻿# Load the required assembly
+﻿﻿# Load the required assembly
 Add-Type -AssemblyName System.Windows.Forms
 
 # Set the variables
@@ -97,7 +97,8 @@ SET AboveStoreID = '$NewAboveStoreID'
     $SqlConnection.Close()
 
     Write-Host "AboveStoreID updated successfully."
-} else {
+}
+else {
     Write-Host "AboveStoreID not changed."
 }
 
