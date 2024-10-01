@@ -1,13 +1,8 @@
 ﻿
-# Update Computer table
-# Update ComputerCCOpts table
-# Update ComputerCCOpts table
-# Define SQL query to select PaymentType table
-
-$SqlServerInstance = "Revent1\REVENTION" # Replace with your SQL Server instance
-$DatabaseName = "REVENTION" # Replace with your database name
-$Username = "Revention" # Replace with your SQL Server username
-$Password = "Astr0s" # Replace with your SQL Server password
+$SqlServerInstance = "{Server Instance}" # Replace with your SQL Server instance
+$DatabaseName = "{DATABASE}" # Replace with your database name
+$Username = "{USERNAME}" # Replace with your SQL Server username
+$Password = "{PASSWORD}" # Replace with your SQL Server password
 
 $connectionString = "Server=$SqlServerInstance;Database=$DatabaseName;User ID=$Username;Password=$Password;"
 $connection = New-Object System.Data.SqlClient.SqlConnection $connectionString

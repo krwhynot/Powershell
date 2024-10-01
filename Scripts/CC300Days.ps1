@@ -23,8 +23,8 @@ ORDER BY BizDate DESC
 '@
 
  
-Invoke-Sqlcmd -Query $Businessinfo  -ServerInstance "$sqlServer" -Username "Revention" -Password "Astr0s" -Database "Revention" |Format-Table | Out-File  -filePath "C:\Revention\Backup\Query-300-Days-CC-Batch.txt"
-Invoke-Sqlcmd -Query $CCBatch30Days  -ServerInstance "$sqlServer" -Username "Revention" -Password "Astr0s" -Database "Revention" |Format-Table | Out-File -Append -filePath "C:\Revention\Backup\Query-30-Days-CC-Batch.txt"
+Invoke-Sqlcmd -Query $Businessinfo  -ServerInstance "$sqlServer" -Username "Revention" -Password "{PASSWORD}" -Database "Revention" |Format-Table | Out-File  -filePath "C:\Revention\Backup\Query-300-Days-CC-Batch.txt"
+Invoke-Sqlcmd -Query $CCBatch30Days  -ServerInstance "$sqlServer" -Username "Revention" -Password "{PASSWORD}" -Database "Revention" |Format-Table | Out-File -Append -filePath "C:\Revention\Backup\Query-30-Days-CC-Batch.txt"
 
 
 #Business Info for Email Title
@@ -38,8 +38,8 @@ Select AboveStoreID
 FROM Business
 '@
 
-$BusinessName_Results =  Invoke-Sqlcmd -Query $BusinessName  -ServerInstance "$sqlServer" -Username "Revention" -Password "Astr0s" -Database "Revention"
-$BusinessID_Results =  Invoke-Sqlcmd -Query $BusinessID  -ServerInstance "$sqlServer" -Username "Revention" -Password "Astr0s" -Database "Revention"
+$BusinessName_Results =  Invoke-Sqlcmd -Query $BusinessName  -ServerInstance "$sqlServer" -Username "Revention" -Password "{PASSWORD}" -Database "Revention"
+$BusinessID_Results =  Invoke-Sqlcmd -Query $BusinessID  -ServerInstance "$sqlServer" -Username "Revention" -Password "{PASSWORD}" -Database "Revention"
 
 
 $oBusinessName_Results = $BusinessName_Results.Item(0)

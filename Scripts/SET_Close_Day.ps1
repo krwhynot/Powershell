@@ -4,7 +4,7 @@
 $SqlServerInstance = "Revent1\REVENTION" # Replace with your SQL Server instance
 $DatabaseName = "REVENTION" # Replace with your database name
 $Username = "Revention" # Replace with your SQL Server username
-$Password = "Astr0s" # Replace with your SQL Server password
+$Password = "{PASSWORD}" # Replace with your SQL Server password
 
 $connectionString = "Server=$SqlServerInstance;Database=$DatabaseName;User ID=$Username;Password=$Password;"
 $connection = New-Object System.Data.SqlClient.SqlConnection $connectionString
